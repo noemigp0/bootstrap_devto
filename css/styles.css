@@ -1,4 +1,45 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
 .container{
     outline: solid red;
     padding: 1em;
 }
+
+body {
+    background-color: white;
+  }
+
+  .font-pcolor {
+    color: #3947d9;
+  }
+
+  .icon {
+    width: 15px;
+  }
+
+  .icon-sm {
+    width: 20px;
+  }
+
+  .cardColor{
+    background-color: rgb(245 245 245);
+  }
+
+  .li a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .socialMedia {
+    display: inline;
+  }
+
+
+
+  /* d-md-none --> a revisar en css */
+
