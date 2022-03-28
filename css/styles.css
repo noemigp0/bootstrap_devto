@@ -3,7 +3,7 @@
 }
 
 .container{
-    outline: solid red;
+    /* outline: solid red; */
     padding: 1em;
 }
 
@@ -264,7 +264,7 @@ body{
 
 /* .row{
     border: 1px solid gray;
-}
+} */
 
 .col{
     border: 1px solid blue;
@@ -275,18 +275,18 @@ body{
 
 }
 
-.container{
+/* .container{
     outline: solid red;
     padding: 1em;
-}
+} */
 
 .icono{
     width: 60px;
 }
 
-.row{
+/* .row{
     border: 1px solid red;
-}
+} */
 
 
 
