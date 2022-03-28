@@ -15,47 +15,29 @@
 </head>
 <body>    
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/componentes.html">Componentes</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu menu2" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="LogoNB" src="img/LogoNB.png">
+          </a>
+
+          <form class="d-flex me-auto">
+            <input class="form-control" id="FSearch" type="search" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <form class="d-flex">
+            <button id="LoginNB" class="btn FGray" type="submit">Log in</button>
+            <button id="CreateANB" class="btn FBold" type="submit">Create account</button>
+          </form>
+        </div>
+      </nav>
+      <br><br>
     </header>   
-    <br>
+    
+
     <main class="container">
-    <div class="row">
-  <!--inicio Noemi-->
+      <div class="row">
+       <!--inicio Noemi-->
         <aside class="col-md-3 blog-sidebar">
             <div class="p-3 mb-3 bg-light rounded">
               <h4 class="font-italic">About</h4>
@@ -256,242 +238,257 @@
 
 
 
-          </aside>
+        </aside>
           <!--FIN Noemi-->
 
-
-
-
-<!--Inicio Luis-->
+          <!--Inicio Luis-->
         <div class="col-md-6 blog-main">
+
+          <div class="row"><br></div>
+
+          <!-- Botones superiores -->
           <div class="row">
             <div class="Top3">
-              <div class="MenuTop FBold">
-                Relevant
-              </div>
-              <div class="MenuTop CGray">
-                Latest
-              </div>
-              <div class="MenuTop CGray">
-                Top
-              </div>
+
+              <button type="button" class="btn btn-sm FBold MenuTop">Relevant</button>
+              <button type="button" class="btn btn-sm FGray MenuTop">Latest</button>
+              <button type="button" class="btn btn-sm FGray MenuTop">Top</button>
             </div>
           </div>
+          <!-- Fin Botones superiores -->
+
+
 
           <div class="row">
-            <p>Ben Halpern for The DEV Team
-              Mar 25
-            </p>
-
-            <p class="font-weight-bold">Deepgram Hackathon Reminder ⏰</p>
-
-            <p>  #deepgram #hackwithdg #ai
-              
-              34 reactions 10 comments</p>
-
-              <p class="font-weight-bold">Bold text.</p>
+            <img id="ImgTop" src="img/ImgTop.png" alt="Why Every Programmers Must Blog" title="Why Every Programmers Must Blog"  />
           </div>
 
 
 
-          <div class="row"> 
-            <div class="card">
-              <img class="img-thumbnail icono" src="./img/IC1.png" alt="Card image cap">
-              <div class="card-body">
-                <!-- <h4 class="card-title">Card title</h4> -->
-                <h6 class="card-subtitle mb-2 text-muted">Mar 25</h6>
-                <p class="card-text font-weight-bold">
-                  Deepgram Hackathon Reminder ⏰
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-          </div>
-
-
-
-
-
-          <!-- prueba de tarjeta de comentarios -->
           <div class="row">
-            <div class="p-2 mb-3 bg-light rounded">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="/" class="font-pcolor"
-                    ><strong>DEV Community</strong></a
-                  ><strong>is a community of 834,673 amazing developers</strong>
-                </h5>
-                <p class="card-text">
-                  We're a place where coders share, stay up-to-date and grow their
-                  careers.
-                </p>
-  
-                <div class="d-grid gap-2">
-                  <a href="#" class="btn btn-outline-primary">Create account</a>
-                  <a href="#" class="btn btn-outline-light btn-link">Log in</a>
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC1.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Tapajyoti Bose</div>
+                  <div class="FS12 FGray">Mar 27</div>
                 </div>
               </div>
-            </div>
 
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">Why Every Programmers Must Blog</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#"> #discuss </a>
+                  <a class="LinksHashtags FGray" href="#"> #beginners </a>
+                  <a class="LinksHashtags FGray" href="#"> #career </a>
+                  <a class="LinksHashtags FGray" href="#"> #watercooler </a>
+                </div>
+              </div>
 
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>43 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>11 comments</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">3 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
           </div>
 
 
 
-
-          
-
-          
-           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <h3 class="pb-3 mb-4 font-italic border-bottom">
-                From the Firehose
-              </h3>
-              <div class="blog-post">
-                <h2 class="blog-post-title">Sample blog post</h2>
-                <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-                <p class="font-weight-bold">Bold text.</p>
-    
-                <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                <hr>
-                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                <blockquote>
-                  <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </blockquote>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                <h2>Heading</h2>
-                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <pre><code>Example code block</code></pre>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                <h3>Sub-heading</h3>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <ul>
-                  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                  <li>Donec id elit non mi porta gravida at eget metus.</li>
-                  <li>Nulla vitae elit libero, a pharetra augue.</li>
-                </ul>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                <ol>
-                  <li>Vestibulum id ligula porta felis euismod semper.</li>
-                  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                </ol>
-                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC2.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Debbie O'Brien</div>
+                  <div class="FS12 FGray">Mar 27</div>
+                </div>
               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">Being an Imposter</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#">#imposter</a>
+                </div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>23 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>5 comments</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">11 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
+
+
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC3.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Sm0ke</div>
+                  <div class="FS12 FGray">Mar 27</div>
+                </div>
+              </div>
+
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">Black Dashboard Starters - All FREE</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#">#black</a>
+                  <a class="LinksHashtags FGray" href="#">#dashboard</a>
+                  <a class="LinksHashtags FGray" href="#">#opensource</a>
+                </div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>15 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>5 comments</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">5 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
+
+
+
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC4.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Chris Bongers</div>
+                  <div class="FS12 FGray">Mar 27</div>
+                </div>
+              </div>
+
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">CSS Logos: Slack logo</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#">#css</a>
+                </div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>23 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>1 comments</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">3 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
+
+
+
+          <div class="row"><br><br></div>
+
+          <div class="row">
+            <div id="LogoT"><img id="LogoTilt" src="img/LogoTilt.png"/></div>
+            <div id="TextJoin"> 
+              <h2 class="FBold"><a href="#" id="LinkJoin">DEV Community</a> is a community of 820,883 amazing developers</h2>
+              <p class="FGray">We're a place where coders share, stay up-to-date and grow their careers.</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="button" class="btn btn-sm" id="CreateA">Create account</button>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="button" class="btn btn-sm" id="Login">Log in</button>
+          </div>
+
+
+
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC5.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Jessica Vargas</div>
+                  <div class="FS12 FGray">Mar 27 (18 hours ago)</div>
+                </div>
+              </div>
+
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">Prueba post</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#">#javascript</a>
+                </div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>3 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>Add Comment</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">1 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
+
+
+
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC6.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">DECK 👨‍💻</div>
+                  <div class="FS12 FGray">Mar 26</div>
+                </div>
+              </div>
+
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">DECK with svelte 🔥</a></div>
+                <div class="Hashtags">
+                  <a class="LinksHashtags FGray" href="#">#webdev</a>
+                  <a class="LinksHashtags FGray" href="#">#svelte</a>
+                  <a class="LinksHashtags FGray" href="#">#laravel</a>
+                  <a class="LinksHashtags FGray" href="#">#php</a>
+                </div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>3 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>Add Comment</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">1 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
+
+
+
+          <div class="row">
+            <div class="card">      <!-- Tarjeta -->
+              <div class="CardHead">
+                <div><img class="ImgTmb" src="img/IC7.png"/></div>
+                <div class="CardTitleHead">
+                  <div class="Name">Vishal Das (he/him)</div>
+                  <div class="FS12 FGray">Mar 26</div>
+                </div>
+              </div>
+
+              <div class="CardBody">
+                <div class="ArticleName"><a class="LinkArticle" href="#">Making a website using Bootstrap 5 ✨</a></div>
+              </div>
+
+              <div class="CardFoot">
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Heart.png"/>4 reactions</button>
+                <button type="button" class="btn btn-sm LinkReactions"><img class="Reactions" src="img/Gb.png"/>Add Comment</button>
+                <div class="Spacer"></div>
+                <div class="FS12 FGray p-1">2 min read</div>
+                <button type="button" class="btn btn-sm Save">Save</button>
+              </div>
+            </div>     <!-- Tarjeta -->
+          </div>
         </div>
         <!--FIN Luis-->
         
@@ -533,17 +530,7 @@
 
 
       </div>
-
-    
-
-
     </main>
-
-    
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
