@@ -15,66 +15,29 @@
     
 </head>
 <body>    
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/componentes.html"
-                  >Componentes</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul
-                  class="dropdown-menu menu2"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+    <header>      
+
+      <nav class="navbar container navbar-light bg-light">        
+        <div class="col-6 d-flex p-2 align-items-center">
+          <a class="navbar-brand" href="#">
+            <img src="./img/dev-nav-bar.png">       
+          </a>
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="Search.." aria-label="Search">
+             
+            </form>
+        </div>
+        <div class="col-6 d-flex flex-row-reverse">
+          <a href="#" class="btn btn-outline-primary">Create account</a>
+          <a href="#" class="btn btn-outline-light btn-link">Log in</a>
+        </div>          
+        </nav>
     </header>   
     <br>
     <main class="container">
     <div class="row">
   <!--inicio Noemi-->
-        <aside class="col-md-3 blog-sidebar">
+        <aside class="col-md-3 blog-sidebar hidden-sm">
           <!-- <div class="card w-75"> -->
           <div class="p-2 mb-3  cardColor rounded">
             <div class="card-body">
@@ -93,7 +56,7 @@
                 <a href="#" class="btn btn-outline-light btn-link">Log in</a>
               </div>
             </div>
-
+          </div>
           <nav class="nav flex-column">            
             <a class="nav-link list-group-item-action" href="#"><img class="icon" src="./img/home.png">     Home</a>
             <a class="nav-link list-group-item-action" href="#"><img class="icon" src="./img/listings.png"> Listings</a>
@@ -112,44 +75,87 @@
             <a class="nav-link list-group-item-action" href="#"><img class="icon" src="./img/code_conduct.png"> Code of Conduct</a>
             <a class="nav-link list-group-item-action" href="#"><img class="icon" src="./img/provacy-policy.png"> Privacy Policy</a>
             <a class="nav-link list-group-item-action" href="#""><img class="icon" src="./img/terms-of-use.png"> Terms of use</a>            
-          </nav>
-
-          <nav class="nav flex-column">                
-            <ul>
-              <li  class="socialMedia"><img class="icon-sm" src="./img/twitter.png"><a href="#"></a></li>
-              <li  class="socialMedia"><img class="icon-sm" src="./img/facebook.png"><a href="#"></a></li>
-              <li  class="socialMedia"><img class="icon-sm" src="./img/git.png"><a href="#"></a></li>
-              <li  class="socialMedia"><img class="icon-sm" src="./img/instagram.png"><a href="#"></a></li>
-              <li  class="socialMedia"><img class="icon-sm" src="./img/twitch.png"><a href="#"></a></li>                  
-            </ul>
-        </nav>
-
-          <div class="p-3">
-            <h4 class="font-italic">Archives</h4>
-            <ol class="list-unstyled mb-0">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
+          </nav>       
+          <br>
+        <div class="row d-flex justify-content-center">
+          <div class="col-2 align-self-start">
+              <li  class="socialMedia"><img class="icon-sm" src="./img/twitter.png"><a href="#"></a></li>  
           </div>
-
-          <div class="p-3">
-            <h4 class="font-italic">Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
+          <div class="col-2 align-self-center">
+            <li  class="socialMedia"><img class="icon-sm" src="./img/facebook.png"><a href="#"></a></li>
           </div>
+          <div class="col-2 align-self-end">
+            <li  class="socialMedia"><img class="icon-sm" src="./img/git.png"><a href="#"></a></li> 
+          </div>
+          <div class="col-2 align-self-end">
+            <li  class="socialMedia"><img class="icon-sm" src="./img/instagram.png"><a href="#"></a></li> 
+          </div>
+          <div class="col-2 align-self-end">
+            <li  class="socialMedia"><img class="icon-sm" src="./img/twitch.png"><a href="#"></a></li>  
+          </div>
+      </div>
+      <br>
+
+      <h6><strong>Popular Tags</strong></h6> 
+                <div class="overflow list-group" >               
+                <ul class="list-unstyled fw-normal pb-1 small">
+                  <li ><a class="nav-link list-group-item-action" href="#">#javascript</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#webdev</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#beginners</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#programming</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#tutorial</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#react</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#python</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#productivity</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#css</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#devops</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#node</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#html</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#andorid</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#php</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#codenewbie</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#codenewbie</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#aws</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#typescript</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#android</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#java</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#github</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#news</a></li> 
+                  <li ><a class="nav-link list-group-item-action" href="#">#php</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#testing</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#linux</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#security</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#showdev</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#go</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#cloud</a></li>
+                  <li ><a class="nav-link list-group-item-action" href="#">#database</a></li>                     
+                </ul>
+            </nav>
+</div>
+     <br >    
+<div class="p-2 mb-3  cardColor rounded">
+  <div class="card-body">
+    <h5 class="card-title">
+      <img class="aside-image" src="./img/wa.png">
+      <a href="/" class="font-pcolor"
+        ><strong>Immerse yourself in the WebAssembly ecosystem ✅</strong></a
+      >
+    </h5>    
+  </div>
+</div>
+
+<div class="p-2 mb-3  cardColor rounded">
+  <div class="card-body">
+    <h2 class="card-subtitle">
+      <img class="aside-image" src="./img/forem-dev.png">
+      <a href="/" class="font-pcolor"><strong>The Forem Shop is Here!</strong></a>        
+    </h2>
+    <a href="https://shop.forem.com">&gt;&gt; Shop Forem, DEV, and CodeNewbie merch</a>    
+  </div>
+</div>
+          
+
+         
         </aside>
 
 
@@ -314,14 +320,13 @@
 
 
 
-          </aside>
           <!--FIN Noemi-->
 
 
 
 
 <!--Inicio Luis-->
-        <div class="col-md-6 blog-main">
+        <div class="col-md-6">
           <div class="row">
             <div class="Top3">
               <div class="MenuTop FBold">

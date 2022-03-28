@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: #f5f5f5;
+    background-color: rgb(241 241 241);
 }
 
 .Top3{
@@ -28,7 +28,7 @@ body{
     border: 1px solid blueviolet;
     padding: 10px;
     border-radius: 6px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 .FBold{
@@ -52,4 +52,87 @@ body{
 
 .row{
     border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardColor{
+    background-color: white;
+}
+
+.socialMedia {
+    display: inline;
+  }
+
+  .overflow {
+    overflow: scroll;
+    width: 300px;
+    height: 300px;
+  } 
+  
+  .list-group-item:hover {
+    background-color: rgb(47 58 178);
+  }
+
+  .font-pcolor{
+    color: rgb(47 58 178);
+    text-decoration: none;
+  }
+
+  .aside-image {
+    width: 100%;
+}
+
+.bd-subnavbar{
+    position:sticky;
+    top: 0;
 }
