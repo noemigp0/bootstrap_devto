@@ -182,7 +182,7 @@ body{
 .LinkReactions{
     padding: 3px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .LinkReactions:hover{
@@ -227,7 +227,7 @@ body{
     color: #3b49df;
 }
 
-#CreateA{
+.CreateA{
     width: 140px;
     height: 40px;
     background-color: #3b49df;
@@ -253,6 +253,81 @@ body{
 
 #Login:hover{
     background-color: #ececec;
+}
+
+
+#Animation{
+    margin-top: 7px;
+    width: 283px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.Box{
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    margin-bottom: 15px;
+    width: 314px;
+    margin-left: 10px;
+}
+
+.LinksAnimation{
+    text-decoration: none;
+}
+
+.Box2{
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    margin-bottom: 15px;
+    padding: 0px;
+    width: 314px;
+    margin-left: 10px;
+}
+
+#Deepgram{
+    width: 314px;
+}
+
+#LinkDeepgram{
+    color: #000000;
+    text-decoration: none;
+}
+
+#LinkDeepgram:hover{
+    color: #3b49df;
+}
+
+.BoxDiv{
+    border: 1px solid #dedede;
+    padding: 12px;
+    width: 314px;
+}
+
+
+.BoxDivW{
+    border: 1px solid #dedede;
+    padding: 12px;
+    width: 314px;
+}
+
+.BoxDivW>a{
+    text-decoration: none;
+    color:#525252;
+}
+
+.BoxDivW:hover{
+    background-color: #ffffff;
+}
+
+.BoxDivW:hover>a{
+    color: #3b49df;
+}
+
+.BtnSide{
+    width: 250px;
+    height: 40px;
 }
 
 
@@ -286,4 +361,4 @@ body{
 
 .row{
     border: 1px solid red;
-}
+} */
