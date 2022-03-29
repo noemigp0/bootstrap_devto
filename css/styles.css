@@ -3,12 +3,12 @@
 }
 
 .container{
-    outline: solid red;
+    /* outline: solid red; */
     padding: 1em;
 }
 
 body{
-    background-color: #f5f5f5;
+    background-color: rgb(241 241 241);
 }
 
 /* EStilos de NavBar */
@@ -339,7 +339,7 @@ body{
 
 /* .row{
     border: 1px solid gray;
-}
+} */
 
 .col{
     border: 1px solid blue;
@@ -350,15 +350,98 @@ body{
 
 }
 
-.container{
+/* .container{
     outline: solid red;
     padding: 1em;
-}
+} */
 
 .icono{
     width: 60px;
 }
 
-.row{
+/* .row{
     border: 1px solid red;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardColor{
+    background-color: white;
+}
+
+.socialMedia {
+    display: inline;
+  }
+
+  .overflow {
+    overflow: scroll;
+    width: 300px;
+    height: 300px;
+  } 
+  
+  .list-group-item:hover {
+    background-color: rgb(47 58 178);
+  }
+
+  .font-pcolor{
+    color: rgb(47 58 178);
+    text-decoration: none;
+  }
+
+  .aside-image {
+    width: 100%;
+}
+
+.bd-subnavbar{
+    position:sticky;
+    top: 0;
+}
