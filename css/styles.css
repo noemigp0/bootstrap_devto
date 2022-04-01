@@ -85,7 +85,7 @@ body{
 }
 
 #ImgTop{
-    width: 655px;
+    /* width: 655px; */
     padding: 0px;
 }
 
@@ -119,6 +119,7 @@ body{
 .CardTitleHead{
     width: 250px;
     height: 35px;
+    padding-left: 7px;
 }
 
 .Name{
@@ -258,7 +259,10 @@ body{
 
 #Animation{
     margin-top: 7px;
-    width: 283px;
+    width: 98%;
+    /* width: 283px;
+    max-width: 283px;
+    height: auto; */
     border-radius: 6px;
     background-color: #fafafa;
 }
@@ -287,7 +291,8 @@ body{
 }
 
 #Deepgram{
-    width: 314px;
+    /* width: 314px; */
+    width: 100%;
 }
 
 #LinkDeepgram{
@@ -302,14 +307,15 @@ body{
 .BoxDiv{
     border: 1px solid #dedede;
     padding: 12px;
-    width: 314px;
+    /* width: 314px; */
+    width: 100%;
 }
-
 
 .BoxDivW{
     border: 1px solid #dedede;
     padding: 12px;
-    width: 314px;
+    /* width: 314px; */
+    width: 100%;
 }
 
 .BoxDivW>a{
@@ -330,93 +336,7 @@ body{
     height: 40px;
 }
 
-
-
-
-
-
-/* temporales */
-
-/* .row{
-    border: 1px solid gray;
-} */
-
-.col{
-    border: 1px solid blue;
-}
-
-.Border{
-    border: 1px solid rgb(197, 36, 36);
-
-}
-
-/* .container{
-    outline: solid red;
-    padding: 1em;
-} */
-
-.icon{
-    width: 20px;
-}
-
-footer{
-    background-color:  rgb(229 229 229);
-    padding: 40px;
-    font-family: sans-serif;
-    font-size: small;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Estilos side y footer */
 
 .cardColor{
     background-color: white;
@@ -464,3 +384,39 @@ footer{
     text-decoration: underline;
 }
 
+.MTR{
+    padding-left: 17px;
+    padding-top: 15px;
+}
+
+
+/* temporales */
+
+/* .row{
+    border: 1px solid gray;
+}
+
+.col{
+    border: 1px solid blue;
+}
+
+.Border{
+    border: 1px solid rgb(197, 36, 36);
+
+}
+
+.container{
+    outline: solid red;
+    padding: 1em;
+}
+
+.icon{
+    width: 20px;
+}
+
+footer{
+    background-color:  rgb(229 229 229);
+    padding: 40px;
+    font-family: sans-serif;
+    font-size: small;
+} */
