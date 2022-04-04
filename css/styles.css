@@ -5,6 +5,9 @@
 .container{
     /* outline: solid red; */
     padding: 1em;
+    min-width:570px;
+    width: auto !important;
+    width:570px;
 }
 
 body{
@@ -48,6 +51,16 @@ body{
     font-size: 18px;
     color: #3b49df;
     margin-right: 150px;
+}
+
+@media (min-width: 570px){
+    #CreateANB{
+        border: 1px solid #3b49df;
+        border-radius: 8px;
+        font-size: 18px;
+        color: #3b49df;
+        margin-right: 0px;
+    }
 }
 
 #CreateANB:hover{
@@ -239,8 +252,9 @@ body{
     margin-bottom: 5px;
 }
 
-#CreateA:hover{
+.CreateA:hover{
     background-color: #2f3ab2;
+    color: #ffffff;
 }
 
 #Login{
@@ -387,6 +401,16 @@ body{
 .MTR{
     padding-left: 17px;
     padding-top: 15px;
+}
+
+.SideIC{
+    border-radius: 6px;
+}
+
+.SideIC:hover{
+    background-color: #e2e3f3;
+    color: #2f3ab2;
+    text-decoration: underline;
 }
 
 
